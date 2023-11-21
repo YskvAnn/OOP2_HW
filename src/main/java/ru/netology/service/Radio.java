@@ -8,9 +8,11 @@ public class Radio {
     public Radio(int stationNumber) {
         this.stationNumber = stationNumber;
     }
+
     public Radio() {
     }
-   public int getCurrentStationNumber() {
+
+    public int getCurrentStationNumber() {
         return currentStation;
     }
 
@@ -54,8 +56,8 @@ public class Radio {
             return;
         }
 
-            this.currentVolume = currentVolume;
-        }
+        this.currentVolume = currentVolume;
+    }
 
     public void increaseVolume() {
         if (currentVolume < 100) {
